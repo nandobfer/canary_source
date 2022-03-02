@@ -1957,7 +1957,7 @@ class Player final : public Creature, public Cylinder
 		std::map<uint8_t, uint16_t> maxValuePerSkill = {
 			{SKILL_LIFE_LEECH_CHANCE, 100},
 			{SKILL_MANA_LEECH_CHANCE, 100},
-			{SKILL_CRITICAL_HIT_CHANCE, 10}
+			{SKILL_CRITICAL_HIT_CHANCE, 100}
 		};
 
 		std::map<uint32_t, Reward*> rewardMap;
