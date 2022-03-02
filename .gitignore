@@ -388,4 +388,3 @@ vcpkg_installed
 
 # CLION
 src/cmake-build-debug
-.vscode/launch.json
